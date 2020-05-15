@@ -1,5 +1,22 @@
 #版权归原作者所有
 #开源，制作不易
+import uuid
+from time import sleep as s     #导入
+import os
+import urllib.request
+import gzip
+import json
+import time
+from random import choice as c
+import requests
+from bs4 import BeautifulSoup
+import numpy as np
+import cv2 as cv
+from MyQR import myqr
+from MyQR import myqr
+import tkinter as tk
+from tkinter import filedialog
+import socket
 def C():
     os.system('cls')
 def Video(Video,fps):
@@ -650,24 +667,7 @@ def Main():        #主循环
                 print('\033[31m请输入数字')
         if apps(a):
             break
-if __main__ == "__name__":
-    import uuid
-    from time import sleep as s     #导入
-    import os
-    import urllib.request
-    import gzip
-    import json
-    import time
-    from random import choice as c
-    import requests
-    from bs4 import BeautifulSoup
-    import numpy as np
-    import cv2 as cv
-    from MyQR import myqr
-    from MyQR import myqr
-    import tkinter as tk
-    from tkinter import filedialog
-    import socket
+if __name__ == "__main__":
     Main()#运行代码
 print('\033[4;33;44m谢谢你的观看!\033[0m')     #懒得注释
 s(2)
